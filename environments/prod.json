@@ -1,0 +1,13 @@
+{
+    "name": "Production",
+    "description": "This is an Production environment defined as prod.jon",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+        "lamp_stack": "= 0.1.0"
+    }
+}

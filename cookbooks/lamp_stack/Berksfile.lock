@@ -1,0 +1,9 @@
+DEPENDENCIES
+  lamp_stack
+    path: .
+    metadata: true
+
+GRAPH
+  apt (6.1.4)
+  lamp_stack (0.1.3)
+    apt (~> 6.1.4)
